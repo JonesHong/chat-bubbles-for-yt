@@ -21,3 +21,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
+/* 隱藏垂直和水平滾輪 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 隱藏垂直滾輪 */
+::-webkit-scrollbar-vertical {
+  display: none;
+}
+
+/* 隱藏水平滾輪 */
+::-webkit-scrollbar-horizontal {
+  display: none;
+}
